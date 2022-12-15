@@ -1,0 +1,7 @@
+{
+    "testEnvironment": "jsdom",
+    "moduleNameMapper": {
+        "\\.(css|less|svg)$": "identity-obj-proxy"
+    },
+    "setupFilesAfterEnv": ["<rootDir>/test/setup.js"]
+}
